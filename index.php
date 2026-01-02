@@ -3,7 +3,7 @@
     require_once 'BilletService.php';
 
     $placesRestantes = 15;
-    $nombreBillets = 20;
+    $nombreBillets = 16;
 
     $resultat = BilletService::acheterBillet($placesRestantes, $nombreBillets);
 
